@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Texturina:ital,wght@1,100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Sansita Swashed", cursive;
+}
+
+.div1 {
+  background: linear-gradient(lightblue, orange);
+  height: 100vh;
+}
+
+.div2 {
+  margin-top: -100px;
+  background: aqua;
+  height: 100vh;
+  clip-path: url(#wave);
+}
+
+.home {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100vh;
+  align-items: center;
+  border-bottom: 0;
+  color: rgb(0, 0, 0);
+  padding: 0 5.4rem;
+}
+
+.home p {
+  font-size: 30px;
+  font-weight: lighter;
+  font-family: "Texturina", serif;
+}
+
+@media (max-width: 37.5em) {
+  .home {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    text-align: center;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0%;
+  }
+  .home p {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  .intro {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .div1,
+  .div2 {
+    height: 140vh;
+  }
+}
